@@ -1,0 +1,39 @@
+# ==============================================================================
+# QoriProof - Git Ignore Rules
+# ==============================================================================
+
+# Compiled binaries and shared libraries
+*.so
+*.dylib
+*.dll
+*.o
+*.a
+*.exe
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pyo
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Build artifacts and temp directories
+build/
+dist/
+out/
+tmp/
+*.log
